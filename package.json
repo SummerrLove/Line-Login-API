@@ -1,0 +1,32 @@
+{
+  "name": "line-login-api",
+  "version": "1.0.0",
+  "description": "A simple server with apis to verify line-login token and retrieve line user information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "run-server": "node dist/app.js",
+    "start": "tsc & node dist/app.js"
+  },
+  "author": "Ethan",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/koa": "^2.13.4",
+    "@types/koa__cors": "^3.1.1",
+    "@types/koa-bodyparser": "^4.3.6",
+    "@types/koa-router": "^7.4.4",
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  }
+}
